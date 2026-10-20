@@ -6,6 +6,8 @@ A landing page and a dashboard for **Next.js 15 (App Router) + Tailwind CSS v4**
 
 **Live demo:** https://teodoravadani.github.io/qodesign-next-starter/
 
+**Walkthrough:** [Make your v0 or Cursor app stop looking AI-built in 10 minutes](https://dev.to/teodoravadani/make-your-v0-or-cursor-app-stop-looking-ai-built-in-10-minutes-46jg)
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fteodoravadani%2Fqodesign-next-starter)
 
 ## What's in it
