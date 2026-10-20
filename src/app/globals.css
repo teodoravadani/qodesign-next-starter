@@ -1,0 +1,56 @@
+/* The components' CSS asks for these fonts by name, so load them by name. */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Saira+Condensed:wght@700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+/* Dark is the default. The toggle in the nav adds or removes .dark on <html>. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  Three colours, two fonts. That's the whole design system.
+  Change these and the page changes with them.
+*/
+@theme {
+  --color-ink: #0a0a0d;
+  --color-panel: #121319;
+  --color-line: #262a36;
+  --color-paper: #f3f1ea;
+  --color-volt: #c6ff3d;
+  --color-ultra: #8b6cff;
+  --color-muted: #8a8fa3;
+
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+html {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  color-scheme: light;
+}
+html.dark {
+  background: var(--color-ink);
+  color: #f4f4f6;
+  color-scheme: dark;
+}
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-volt);
+  color: var(--color-ink);
+}
+
+/* Scroll-in for sections. Off when the visitor asks for less motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    animation: reveal-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 28%;
+  }
+}
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: none; }
+}
