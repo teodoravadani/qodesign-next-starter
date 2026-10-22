@@ -1,5 +1,7 @@
 # qodesign-next-starter
 
+**Free kit:** [qodesign.dev/free](https://qodesign.dev/free?utm_source=github&utm_content=qodesign-next-starter_readme)
+
 A landing page and a dashboard for **Next.js 15 (App Router) + Tailwind CSS v4**, put together from the free animated components in [qodesign-free](https://github.com/teodoravadani/qodesign-free). Clone it when your v0 or Cursor build looks like every other one and you want a page with real motion and real feedback to start from.
 
 ![Demo: signup toast, theme toggle, pricing switch](.github/demo.gif)
