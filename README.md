@@ -88,4 +88,4 @@ MIT, for the starter and for the components in it.
 
 ## Who made this
 
-I'm Teodor, and I make animated UI components at qodesign. The components here are the free ones. The paid ones are $3 each or $29 for all of them, with a React + Tailwind version and a prompt file for Cursor or v0, at [qodesign.dev](https://qodesign.dev/?utm_source=github&utm_medium=readme&utm_campaign=next_starter).
+I'm Teodor, and I make animated UI components at qodesign. The components here are the free ones. The paid ones each come with a React + Tailwind version and a prompt file for Cursor or v0, at [qodesign.dev/components](https://qodesign.dev/components?utm_source=github&utm_medium=readme&utm_campaign=next_starter).
